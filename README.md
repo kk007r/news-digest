@@ -183,6 +183,12 @@ articles:
 
 公開後は `docs/index.html` がニュースまとめページになります。
 
+このリポジトリの公開URL:
+
+```text
+https://komorikazuki.github.io/news-digest/
+```
+
 GitHub Pagesの設定:
 
 1. GitHubでリポジトリを開く。
