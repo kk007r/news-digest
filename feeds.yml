@@ -1,0 +1,91 @@
+# RSS/AtomのURLは必要に応じて差し替えてください。
+# RSSが見つからないサイトは enabled: false のまま残し、見つかったら url を入れて true にします。
+# すべてログイン不要・APIキー不要・追加費用なしの公開RSS/Atomです。
+
+tech:
+  # 日本語テックニュース
+  - name: "はてなブックマーク テクノロジー"
+    url: "https://b.hatena.ne.jp/hotentry/it.rss"
+  - name: "Publickey"
+    url: "https://www.publickey1.jp/atom.xml"
+  - name: "InfoQ Japan"
+    url: "https://www.infoq.com/jp/feed/"
+  - name: "Zenn Feed"
+    url: "https://zenn.dev/feed"
+  - name: "Qiita Popular"
+    url: "https://qiita.com/popular-items/feed.atom"
+  - name: "DevelopersIO Daily"
+    url: "https://feed.classmethod.jp/blog/daily.rss"
+
+  # AI / OpenAI / Claude / 生成AI
+  - name: "OpenAI News"
+    url: "https://openai.com/news/rss.xml"
+  - name: "Hugging Face Blog"
+    url: "https://huggingface.co/blog/feed.xml"
+  - name: "JetBrains AI Blog"
+    url: "https://blog.jetbrains.com/ai/feed/"
+  - name: "Simon Willison"
+    url: "https://simonwillison.net/atom/everything/"
+  - name: "Hacker News Front Page"
+    url: "https://hnrss.org/frontpage"
+  - name: "Google News - テック補足"
+    url: "https://news.google.com/rss/search?q=OpenAI%20OR%20Claude%20OR%20%22%E7%94%9F%E6%88%90AI%22%20OR%20Codex&hl=ja&gl=JP&ceid=JP:ja"
+
+  # GitHub / 開発ツール
+  - name: "GitHub Blog"
+    url: "https://github.blog/feed/"
+  - name: "GitHub Changelog"
+    url: "https://github.blog/changelog/feed/"
+  - name: "Obsidian Blog"
+    url: "https://obsidian.md/feed.xml"
+
+  # Android / Kotlin
+  - name: "Android Developers Blog"
+    url: "https://android-developers.googleblog.com/feeds/posts/default?alt=rss"
+  - name: "Kotlin Blog"
+    url: "https://blog.jetbrains.com/kotlin/feed/"
+
+  # 車載ソフト / MBD / 組み込み
+  - name: "Embedded.com"
+    url: "https://www.embedded.com/feed/"
+  - name: "Google News - 開発分野補足"
+    url: "https://news.google.com/rss/search?q=%22%E8%BB%8A%E8%BC%89%E3%82%BD%E3%83%95%E3%83%88%22%20OR%20MBD%20OR%20%22%E7%B5%84%E3%81%BF%E8%BE%BC%E3%81%BF%22%20OR%20%22%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E5%AE%9A%E7%BE%A9%E8%BB%8A%E4%B8%A1%22&hl=ja&gl=JP&ceid=JP:ja"
+
+  # 公式RSSが確認できたら有効化する候補
+  - name: "Anthropic News"
+    url: ""
+    enabled: false
+    note: "公式RSSが確認できたら追加してください。Claude関連はGoogle News - テック補足で補足します。"
+  - name: "MONOist 組み込み/車載"
+    url: ""
+    enabled: false
+    note: "RSS URLと利用条件を確認できたら追加してください。"
+
+mma:
+  # 公式・海外MMAニュース
+  - name: "UFC News"
+    url: "https://www.ufc.com/rss/news"
+  - name: "Sherdog"
+    url: "https://www.sherdog.com/rss/news.xml"
+  - name: "Cageside Press"
+    url: "https://cagesidepress.com/feed/"
+  - name: "BJPENN.com"
+    url: "https://www.bjpenn.com/feed/"
+
+  # 日本語・RIZIN補足
+  - name: "MMAPLANET"
+    url: "https://mmaplanet.jp/feed"
+  - name: "Google News - 格闘技補足"
+    url: "https://news.google.com/rss/search?q=RIZIN%20OR%20UFC%20OR%20%22Road%20to%20UFC%22&hl=ja&gl=JP&ceid=JP:ja"
+  - name: "Google News - 選手動向補足"
+    url: "https://news.google.com/rss/search?q=%22%E5%B9%B3%E8%89%AF%E9%81%94%E9%83%8E%22%20OR%20%22%E5%A0%80%E5%8F%A3%E6%81%AD%E5%8F%B8%22%20OR%20%22%E6%9C%9D%E5%80%89%E6%9C%AA%E6%9D%A5%22%20OR%20%22%E6%9C%9D%E5%80%89%E6%B5%B7%22%20OR%20%22%E9%88%B4%E6%9C%A8%E5%8D%83%E8%A3%95%22%20OR%20%22%E3%82%AF%E3%83%AC%E3%83%99%E3%83%AB%22&hl=ja&gl=JP&ceid=JP:ja"
+
+  # 公式RSSが確認できたら有効化する候補
+  - name: "RIZIN 公式ニュース"
+    url: ""
+    enabled: false
+    note: "公式RSS URLが見つかったらここに追加してください。現状はGoogle News - 格闘技補足で補足します。"
+  - name: "MMA Fighting"
+    url: ""
+    enabled: false
+    note: "以前のRSS URLは404でした。新しい公式RSS URLが確認できたら追加してください。"

@@ -1,0 +1,74 @@
+articles:
+  "https://github.blog/news-insights/company-news/github-universe-is-back-all-together-now-in-the-agentic-era/":
+    title_ja: "GitHub Universeが復活: エージェント時代に、みんなで集まる"
+    summary_ja: "GitHub Universe 2026は、10月28日から29日にサンフランシスコのFort Mason Centerで開催予定。GitHubの大型イベント告知です。"
+  "https://blog.jetbrains.com/kotlin/2026/06/kotlin-2-4-0-released/":
+    title_ja: "Kotlin 2.4.0がリリース"
+    summary_ja: "Kotlin 2.4.0が公開されました。主な変更点や詳細な更新内容は公式ブログで案内されています。"
+  "https://android-developers.googleblog.com/2026/06/prioritizing-memory-efficiency-steps-for-android-17.html":
+    title_ja: "メモリ効率を優先する: Android 17に向けた重要な手順"
+    summary_ja: "Android 17に向けて、開発者がメモリ効率を高めるために意識すべきポイントを紹介しています。"
+  "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/":
+    title_ja: "GitHub Copilotアプリ: エージェント時代のデスクトップ体験"
+    summary_ja: "Microsoft Build 2026で、GitHubはエージェントが普段の作業環境に自然に入るための新しいツールや画面を紹介しました。"
+  "https://android-developers.googleblog.com/2026/06/building-premium-android-experiences-google-io-26.html":
+    title_ja: "Google I/O '26で紹介された上質なAndroid体験の作り方"
+    summary_ja: "Androidで差別化された体験を作るために、品質や使い心地を高める考え方を紹介しています。"
+  "https://github.blog/news-insights/company-news/still-a-developer-just-outside-our-latest-github-shop-collection-is-here/":
+    title_ja: "開発者のまま、少し外へ。GitHub Shopの新コレクションが登場"
+    summary_ja: "GitHub Shopの新しいESCコレクションの紹介です。デスクを離れて外に出る雰囲気の商品展開です。"
+  "https://blog.jetbrains.com/ai/2026/05/koog-1-0-is-out-stable-core-better-interop-and-multiplatform-observability/":
+    title_ja: "Koog 1.0が公開: 安定したコア、相互運用性、マルチプラットフォーム監視を強化"
+    summary_ja: "JetBrainsのオープンソースAIエージェントフレームワークKoog 1.0が発表されました。安定性や相互運用性が強化されています。"
+  "https://android-developers.googleblog.com/2026/05/android-ai-intelligence-system.html":
+    title_ja: "Google I/O '26のAndroid AI更新: 賢い体験を作るための注目点"
+    summary_ja: "Google I/O 2026で紹介された、Androidをより知的な体験へ進化させるAI関連アップデートのまとめです。"
+  "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-git-and-github-in-vs-code/":
+    title_ja: "初心者向けGitHub: VS CodeでGitとGitHubを始める"
+    summary_ja: "VS CodeからGitHubを使い、プロジェクトを管理する基本手順を紹介しています。"
+  "https://github.blog/ai-and-ml/github-copilot/github-recognized-as-a-leader-in-the-gartner-magic-quadrant-for-enterprise-ai-coding-agents-for-the-third-year-in-a-row/":
+    title_ja: "GitHubがGartnerの企業向けAIコーディングエージェント分野で3年連続リーダーに選出"
+    summary_ja: "GitHubは、AIを活用した安全でオープンな開発プラットフォームづくりへの取り組みを紹介しています。"
+  "https://github.blog/open-source/gaming/beyond-the-engine-10-open-source-projects-shaping-how-games-actually-get-made/":
+    title_ja: "ゲーム制作を支える10のオープンソースプロジェクト"
+    summary_ja: "ゲーム開発でアート、アニメーション、レベル制作、音声、会話、デバッグUIなどを支えるオープンソースツールを紹介しています。"
+  "https://github.blog/open-source/building-githubs-next-chapter-in-accessibility/":
+    title_ja: "GitHubのアクセシビリティに向けた次の取り組み"
+    summary_ja: "GitHubのアクセシビリティ戦略の更新と、アクセシビリティ文化を育てる取り組みを紹介しています。"
+  "https://www.sherdog.com/news/news/UFC-Vegas-118-bonuses-Four-earn-additional-36100K-201449":
+    title_ja: "UFC Vegas 118ボーナス: 4選手が追加で10万ドルを獲得"
+    summary_ja: "フィニッシュの多い大会となったUFC Vegas 118で、4選手がボーナスを獲得しました。"
+  "https://www.sherdog.com/news/news/Gabriel-Bonfim-handles-exchampion-Belal-Muhammad-in-UFC-Vegas-118-main-event-201447":
+    title_ja: "ガブリエル・ボンフィム、UFC Vegas 118メインで元王者ベラル・ムハマドを攻略"
+    summary_ja: "ガブリエル・ボンフィムは、UFCウェルター級上位戦線への参入を強く印象づけました。"
+  "https://www.sherdog.com/news/news/UFC-Vegas-118-Muhammad-vs-Bonfim-playbyplay-results-round-scoring-201445":
+    title_ja: "UFC Vegas 118「ムハマド vs. ボンフィム」速報、結果、ラウンド採点"
+    summary_ja: "SherdogによるUFC Vegas 118のライブ速報記事です。大会はUFC Fight Night 278としても扱われています。"
+  "https://www.sherdog.com/news/news/UFC-Vegas-118-Prelims-Allesandro-Costa-shines-on-finishheavy-undercard-201446":
+    title_ja: "UFC Vegas 118プレリム: アレッサンドロ・コスタがフィニッシュ続出の前座で輝く"
+    summary_ja: "アレッサンドロ・コスタは短期代役のチャンスを活かし、計算されたリスクを成功につなげました。"
+  "https://www.sherdog.com/news/news/UFC-announces-intention-to-integrate-new-rankings-format-201459":
+    title_ja: "UFC、新しいランキング形式を導入する意向を発表"
+    summary_ja: "UFCは今後のランキング制度で、従来の主観的な要素を見直す方向を示しています。"
+  "https://www.sherdog.com/news/news/Current-UFC-champion-goes-off-on-predatory-UFC-fighter-pay-201455":
+    title_ja: "現UFC王者、搾取的だとされるUFCのファイトマネーに不満を表明"
+    summary_ja: "ショーン・ストリックランドはUFCのファイトマネーに不満を示しつつ、すぐには変わらないとの見方を語っています。"
+  "https://www.sherdog.com/news/news/Sean-OMalley-reveals-uncertainties-about-UFC-White-House-timing-pacing-201454":
+    title_ja: "ショーン・オマリー、UFCホワイトハウス大会の日程や進行に不確実性があると明かす"
+    summary_ja: "ショーン・オマリーは、UFC White House: Freedom 250の日程が変更される可能性があると聞いていると語りました。"
+  "https://www.sherdog.com/news/news/Eddie-Hearn-claims-he-wont-let-Tom-Aspinall-fight-on-current-UFC-contract-201451":
+    title_ja: "エディ・ハーン、現行UFC契約ではトム・アスピナルを試合させないと主張"
+    summary_ja: "トム・アスピナルの直近のキャリア見通しは、日ごとに不透明さを増しています。"
+  "https://www.sherdog.com/news/news/Makoto-Shinryu-Takahashi-wins-flyweight-title-at-Rizin-FF-Landmark-Vol-14-201450":
+    title_ja: "高橋誠がRIZIN FF Landmark Vol. 14でフライ級王座を獲得"
+    summary_ja: "約2年越しの再戦で、高橋誠が過去の敗戦を晴らし、扇久保博正に勝利しました。"
+  "https://www.sherdog.com/news/news/UFC-Vegas-118-weighin-results-Muhammad-Bonfim-on-point-201436":
+    title_ja: "UFC Vegas 118計量結果: ムハマド、ボンフィムともにクリア"
+    summary_ja: "6月最初のUFC大会を前に、出場選手は最終的に全員が計量をクリアしました。"
+  "https://www.sherdog.com/news/news/UFC-head-claims-Alex-Pereira-passes-Jon-Jones-as-GOAT-with-White-House-win-201440":
+    title_ja: "UFC首脳、アレックス・ペレイラがホワイトハウス大会勝利でジョン・ジョーンズを超えると主張"
+    summary_ja: "UFCの主要プロモーターが、今後の大型イベントに向けてアレックス・ペレイラを強く売り込んでいます。"
+  "https://www.sherdog.com/news/news/UFC-WVC-pioneer-to-receive-documentary-about-career-201439":
+    title_ja: "UFCとWVCの先駆者、キャリアを描くドキュメンタリー制作へ"
+    summary_ja: "世代を代表するグラップラーであり、元UFCファイターでもある人物の功績に焦点を当てたドキュメンタリーが制作されます。"
+
