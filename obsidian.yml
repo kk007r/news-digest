@@ -1,0 +1,7 @@
+# Obsidian連携の設定です。
+# vault_path は個人環境のパスになるため、公開したくない場合は obsidian.local.yml に書いてください。
+
+vault_path: ""
+target_folder: "News Digest"
+overwrite: true
+

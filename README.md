@@ -23,7 +23,9 @@ news-digest/
 ├─ main.py
 ├─ feeds.yml
 ├─ keywords.yml
+├─ obsidian.yml
 ├─ translations.yml
+├─ sync_obsidian.py
 ├─ docs/
 │  ├─ .nojekyll
 │  ├─ index.html
@@ -156,11 +158,47 @@ articles:
 
 ## Obsidianへの取り込み
 
-いちばん簡単な方法は、Obsidianの保管庫内にこのプロジェクトの `news` フォルダを置くことです。
+生成済みMarkdownは `sync_obsidian.py` でObsidian保管庫へコピーできます。
 
-別の場所で実行している場合は、生成されたMarkdownをObsidian保管庫にコピーするか、保管庫から `news` を参照しやすい場所に置いてください。
+まず、Obsidian側で保管庫を作成します。その後、保管庫のパスを `obsidian.local.yml` に書きます。`obsidian.local.yml` は `.gitignore` 済みなので、個人の保管庫パスをGitHubへ公開せずに済みます。
+
+```yml
+vault_path: "C:\\Users\\komor\\Documents\\Obsidian\\MyVault"
+target_folder: "News Digest"
+overwrite: true
+```
+
+ドライラン:
+
+```powershell
+python sync_obsidian.py --dry-run
+```
+
+実際に同期:
+
+```powershell
+python sync_obsidian.py
+```
+
+コマンドだけで保管庫を指定することもできます。
+
+```powershell
+python sync_obsidian.py --vault "C:\Users\komor\Documents\Obsidian\MyVault"
+```
+
+同期される構成:
+
+```text
+<Obsidian保管庫>/
+└─ News Digest/
+   ├─ daily/
+   ├─ tech/
+   └─ mma/
+```
 
 生成されるMarkdownにはYAML front matterが付くため、DataviewなどのObsidianプラグインを使う場合も扱いやすくなります。
+
+GitHub Actionsはクラウド上で動くため、PC上のObsidian保管庫には直接コピーできません。Obsidian同期はPCで `python main.py` を実行したあとに `python sync_obsidian.py` を実行してください。
 
 ## GitHub Actions
 
