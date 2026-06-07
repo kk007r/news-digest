@@ -47,7 +47,7 @@ def merge_config(base: dict[str, Any], override: dict[str, Any]) -> dict[str, An
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="生成済みMarkdownをObsidian保管庫へコピーします。")
-    parser.add_argument("--vault", help="Obsidian保管庫のパス。例: C:\\Users\\komor\\Documents\\Obsidian\\MyVault")
+    parser.add_argument("--vault", help="Obsidian保管庫のパス。例: <Obsidian保管庫のパス>")
     parser.add_argument("--target-folder", help="保管庫内のコピー先フォルダ。既定: News Digest")
     parser.add_argument("--no-overwrite", action="store_true", help="同名ファイルがある場合は上書きしません。")
     parser.add_argument("--dry-run", action="store_true", help="コピーせず、実行予定だけ表示します。")
